@@ -1,0 +1,13 @@
+let a = Math.floor(Math.random()*6)+1;
+console.log("First Dice Number: " + a);
+let b = Math.floor(Math.random()*6)+1;
+console.log("Second Dice Number: " + b);
+let c = Math.floor(Math.random()*6)+1;
+console.log("Third Dice Number: " + c);
+let d = Math.floor(Math.random()*6)+1;
+console.log("Fourth Dice Number: " + d);
+let e = Math.floor(Math.random()*6)+1;
+console.log("Fifth Dice Number: " + e);
+let sum = a+b+c+d+e;
+console.log("Sum of all dice: " + (sum));
+console.log("Average of all dice: " + (sum/5));
